@@ -1,0 +1,49 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.box__quote{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    background-color: white;
+    max-width: 500px;
+    padding: 1rem;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.75);;
+}
+
+.box__text{
+    text-align: center;
+    font-size: 16px;
+}
+
+.box__title{
+    margin-top: 1rem;
+    font-style: italic;
+    text-align: right;
+    font-size: 16px;
+}
+
+.box__btn{
+    font-size: 20px;
+    margin-top: 0.6rem;
+    border-radius: 50%;
+    color: white;
+    width: 40px;
+    aspect-ratio: 1;
+    cursor: pointer;
+    margin-left: auto;
+    box-shadow: 2px 0px 2px rgba(0,0,0,0.75);
+}
+
+.box__icon{
+    font-size: 40px;
+}
+
+.box__content{
+    display: grid;
+}
